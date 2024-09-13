@@ -4,6 +4,8 @@
 
 https://github.com/ganbaaelmer/pandas-fast-nested-looper.git
 
+https://pypi.org/project/pandas-fast-nested-looper
+
 эсвэл
 
 ```
