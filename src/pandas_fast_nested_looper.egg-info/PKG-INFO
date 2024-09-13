@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: pandas-fast-nested-looper
+Version: 0.0.1
+Summary: pandas-fast-nested-looper
+Home-page: https://github.com/ganbaaelmer/pandas-fast-nested-looper.git
+Author: Ganbaatar Bold
+Author-email: elmerganbaa <elmerganbaa@gmail.com>
+Project-URL: Homepage, https://github.com/ganbaaelmer/pandas-fast-nested-looper.git
+Project-URL: Issues, https://github.com/ganbaaelmer/pandas-fast-nested-looper.git
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 ## Суулгах:
 
 
@@ -40,7 +56,7 @@ file2_column_B_list лист үүснэ
 
 file2_df dataframe дотор таны өгсөн file2_new_column_name багана бүхий мэдээлэл үүснэ
 
-df2_with_new_column.csv файл диск дээр үүснэ.
+df2_with_new_column.csv файл дискэн дээр үүснэ.
 
 ## Тайлбар:
 
