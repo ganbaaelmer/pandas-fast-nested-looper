@@ -20,9 +20,15 @@ def looper(file1_num_iterations, file2_num_iterations, file2_column_A_numpy, fil
 
         for j in range(file1_num_iterations):
             if file2_column_A_numpy[i] == file1_column_A_numpy[j]:
+                
                 file2_column_B_list[i] = file1_column_B_numpy[j]
+
+                #print("yes match: ", file2_column_A_numpy[i], file1_column_A_numpy[j])
+
             else:
-                file2_column_B_list[i] = 99999999
+                #print("compare : ", file2_column_A_numpy[i], file1_column_A_numpy[j])
+                pass
+                #file2_column_B_list[i] = 99999999
 
             progress[1].update(1)
             
@@ -87,9 +93,11 @@ file2_name = "subscriber.csv"
 
 file1_column_A = 'id_billing_user'
 file1_column_B = '__newID'
+
 file2_column_A = 'user_id'
 
 file2_new_column_name = "all_user_id"
 
-file2_column_B_list, file2_df = pandas_fast_nested_looper(file1_name, file1_column_A, file1_column_B, file2_name, file2_column_A, file2_new_column_name)
+#function
+#file2_column_B_list, file2_df = pandas_fast_nested_looper(file1_name, file1_column_A, file1_column_B, file2_name, file2_column_A, file2_new_column_name)
 
