@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pandas-fast-nested-looper
-Version: 0.0.4
+Version: 0.0.5
 Summary: pandas-fast-nested-looper
 Home-page: https://github.com/ganbaaelmer/pandas-fast-nested-looper.git
 Author: Ganbaatar Bold
@@ -14,9 +14,9 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
+# v0.0.5
+
 ## Суулгах:
-
-
 
 https://github.com/ganbaaelmer/pandas-fast-nested-looper.git
 

@@ -8,11 +8,14 @@ import time
 import matplotlib.pyplot as plt
 from numba_progress import ProgressBar
 
+start_time = time.time()
 
 #----------------------------- main loop --------------------------------------------------
 @numba.jit(nogil=True)
 def looper(file1_num_iterations, file2_num_iterations, file2_column_A_numpy, file1_column_A_numpy, file1_column_B_numpy, progress):
     file2_column_B_list = [0] * file2_num_iterations
+
+    
     print("\nloop starting...")
     
     for i in range(file2_num_iterations):
@@ -36,9 +39,10 @@ def looper(file1_num_iterations, file2_num_iterations, file2_column_A_numpy, fil
         progress[1].set(0)
         # print(i)
 
-    print('loop done!')
+    
     
     return file2_column_B_list
+
 
 #----------------------------- main function --------------------------------------------------
 def pandas_fast_nested_looper(file1_name,file1_column_A, file1_column_B, file2_name, file2_column_A, file2_new_column_name):
@@ -82,9 +86,12 @@ def pandas_fast_nested_looper(file1_name,file1_column_A, file1_column_B, file2_n
     print("saving file1 with new column to disk ....")
     file2_df.to_csv("df2_with_new_column.csv")
 
-    print("\ : ", file2_column_B_list, "\n done!:")
+    print("\ : ", file2_column_B_list, "\n done!")
+    end_time = time.time()
+    print('\nDone! Elapsed time: {} seconds'.format((end_time - start_time)))
 
     return file2_column_B_list, file2_df
+
 
 
 #----------------------------- test --------------------------------------------------
@@ -98,6 +105,6 @@ file2_column_A = 'user_id'
 
 file2_new_column_name = "all_user_id"
 
-#function
+#function test
 #file2_column_B_list, file2_df = pandas_fast_nested_looper(file1_name, file1_column_A, file1_column_B, file2_name, file2_column_A, file2_new_column_name)
 
