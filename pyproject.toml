@@ -1,6 +1,6 @@
 [project]
 name = "pandas-fast-nested-looper"
-version = "0.0.8"
+version = "0.0.9"
 authors = [
   { name="elmerganbaa", email="elmerganbaa@gmail.com" },
 ]
