@@ -1,1 +1,1 @@
-pandas-fast-nested-looper
+pandas_fast_nested_looper

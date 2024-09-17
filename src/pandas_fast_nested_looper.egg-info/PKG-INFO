@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pandas-fast-nested-looper
-Version: 0.0.5
+Version: 0.0.6
 Summary: pandas-fast-nested-looper
 Home-page: https://github.com/ganbaaelmer/pandas-fast-nested-looper.git
 Author: Ganbaatar Bold
@@ -14,7 +14,7 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-# v0.0.5
+# v0.0.6
 
 ## Суулгах:
 
@@ -45,7 +45,8 @@ https://medium.com/@mflova/making-python-extremely-fast-with-numba-advanced-deep
 
 ```
 
-from pandas-fast-nested-looper import pandas-fast-nested-looper
+from pandas_fast_nested_looper import pandas_fast_nested_looper
+
 
 file1_name = "your_file1.csv"
 

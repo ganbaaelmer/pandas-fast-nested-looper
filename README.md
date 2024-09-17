@@ -1,4 +1,4 @@
-# v0.0.5
+# v0.0.6
 
 ## Суулгах:
 
@@ -29,7 +29,8 @@ https://medium.com/@mflova/making-python-extremely-fast-with-numba-advanced-deep
 
 ```
 
-from pandas-fast-nested-looper import pandas-fast-nested-looper
+from pandas_fast_nested_looper import pandas_fast_nested_looper
+
 
 file1_name = "your_file1.csv"
 
