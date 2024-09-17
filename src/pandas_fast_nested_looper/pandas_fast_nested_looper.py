@@ -86,7 +86,8 @@ def pandas_fast_nested_looper(file1_name,file1_column_A, file1_column_B, file2_n
     print("saving file1 with new column to disk ....")
     file2_df.to_csv("df2_with_new_column.csv")
 
-    print("\n", file2_column_B_list, "\n done!")
+    #print("\n", file2_column_B_list, "\n done!")
+    print('start calucating total loop time... ')
     end_time = time.time()
     print('\nDone! Elapsed time: {} seconds'.format((end_time - start_time)))
 
