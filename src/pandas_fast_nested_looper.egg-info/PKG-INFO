@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pandas-fast-nested-looper
-Version: 0.0.6
+Version: 0.0.7
 Summary: pandas-fast-nested-looper
 Home-page: https://github.com/ganbaaelmer/pandas-fast-nested-looper.git
 Author: Ganbaatar Bold
@@ -14,7 +14,7 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-# v0.0.6
+# v0.0.7
 
 ## Суулгах:
 
@@ -68,6 +68,8 @@ file2_column_B_list, file2_df = pandas_fast_nested_looper.pandas_fast_nested_loo
 
 #### option1:
 
+```
+
 for i in range(file2_column_A.shape[0]):
 
     for i in range(file1_column_A.shape[0])
@@ -79,6 +81,8 @@ for i in range(file2_column_A.shape[0]):
         else:
 
             pass
+
+```
 
 #### option2:
 

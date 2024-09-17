@@ -1,4 +1,4 @@
-# v0.0.6
+# v0.0.7
 
 ## Суулгах:
 
@@ -52,6 +52,8 @@ file2_column_B_list, file2_df = pandas_fast_nested_looper.pandas_fast_nested_loo
 
 #### option1:
 
+```
+
 for i in range(file2_column_A.shape[0]):
 
     for i in range(file1_column_A.shape[0])
@@ -63,6 +65,8 @@ for i in range(file2_column_A.shape[0]):
         else:
 
             pass
+
+```
 
 #### option2:
 

@@ -5,7 +5,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
     name = "pandas-fast-nested-looper",
-    version = "0.0.6",
+    version = "0.0.7",
     author = "Ganbaatar Bold",
     author_email = "elmerganbaa@gmail.com",
     description = "pandas-fast-nested-looper",
